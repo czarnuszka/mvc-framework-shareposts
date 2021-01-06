@@ -14,3 +14,6 @@ define('URLROOT', 'http://localhost/code/mvc-framework-shareposts');
 
 //Site Name
 define('SITENAME', 'SharePosts');
+
+//App Version
+define('APPVERSION', '1.0.0');
