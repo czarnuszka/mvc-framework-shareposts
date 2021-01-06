@@ -5,4 +5,4 @@
         <p class="lead"><?php echo $data['description']; ?></p>
     </div>
 </div>
-<?php require APPROOT . '/views/inc/footer.php';
+<?php require APPROOT . '/views/inc/footer.php'; ?>
