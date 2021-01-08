@@ -5,12 +5,12 @@
  */
 
 class Controller {
-    //Load model
+    //Load models
     public function model($model) {
-        // Require model file
+        // Require models file
         require_once '../app/models/' . $model . '.php';
 
-        //Instatiate model
+        //Instatiate models
         return new $model();
     }
 
