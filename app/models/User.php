@@ -2,8 +2,8 @@
 class User {
     private $db;
 
-    public function __constructor(){
-        $this->db = new Database;
+    public function __construct(){
+        $this->db = new Database();
     }
     //Find user by email
     public function findUserByEmail($email){
